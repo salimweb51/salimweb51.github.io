@@ -1,7 +1,7 @@
 body{
      width: auto;
-     margin: auto;
-     padding: auto;
+     margin: 0;
+     padding: O;
 
 }
 .contener{
@@ -166,7 +166,13 @@ img {
 
 
 @media screen and (min-width:310px) and (max-width:789px){
- 
+     
+body{
+     width: auto;
+     margin: 0;
+     padding: O;
+
+}
  
 .contener {
     display: inline-block;
