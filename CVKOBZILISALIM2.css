@@ -449,7 +449,6 @@ padding-left: 5%;
  .reco{
  display: flex;
  flex-wrap: nowrap;
- justify-content:space-between;
 }
 
 .reco p{
@@ -458,26 +457,20 @@ font-size: 1.2em;
 
 }
 
-.reco2{
-	-moz-margin-right:20%;
-	-webkit-margin-right:20%;
-	-o-margin-right: 20%;
-	margin-right: 20%;
+.reco2  {
+	margin-right: 50%;
 	padding-right: 0px;
 	padding-top: 2px;
- white-space: nowrap;
+        white-space: nowrap;
 	font-size: 1.3em;
 	
 }
 
 .reco3{
 	padding-top: 1px;
- white-space: nowrap;
+        white-space: nowrap;
 	font-size: 1.3em;
-	-moz-margin-left:15%;
-	-webkit-margin-left:15%;
-	-o-margin-left:15%;
-	margin-left: 15%;
+	margin-left: 35%;
 }
 
 
@@ -511,7 +504,6 @@ font-size: 1.2em;
  .reco{
  display: flex;
  flex-wrap: nowrap;
- justify-content:space-between;
 }
 
 .reco p{
@@ -521,11 +513,8 @@ font-size: 1.2em;
 }
 
 .reco2{
-	padding-top: 2px;
-	-moz-margin-right: 30%;
-	-webkit-margin-right:30%;
-	-o-margin-right:30%;
-	margin-right: 30%;
+	padding-top: 2px;;
+	margin-right: 50%;
 	white-space: nowrap;
 	font-size: 1.3em;
 
@@ -533,11 +522,8 @@ font-size: 1.2em;
 
 .reco3{
 	padding-top: 1px;
-	-moz-margin-left:15%;
-	-webkit-margin-left:15%;
-	-o-margin-left:15%;
-	margin-left: 15%;
- white-space: nowrap;
+	margin-left: 35%;
+        white-space: nowrap;
 	font-size: 1.3em;
 }
 
