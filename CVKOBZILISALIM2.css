@@ -456,6 +456,7 @@ padding-left: 5%;
 .reco p{
 width: 100%;
 font-size: 1.2em;
+white-space: nowrap;
 
 }
 
