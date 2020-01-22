@@ -22,10 +22,6 @@ body {
           display:flex;
           justify-content: space-between;
           word-wrap: break-word;
-         -webkit-hyphens: auto;
-         -moz-hyphens: auto;
-         -ms-hyphens: auto;
-          -o-hyphens: auto;
 	       
 }
 
@@ -234,7 +230,6 @@ img {
 #description {
     text-align: justify;
     font-size: 1.2em;
-    padding-bottom: -10%;
     }
 
 .i1, .i2, .i3{
@@ -367,7 +362,6 @@ img {
 #description {
     text-align: justify;
     font-size: 1.2em;
-    padding-bottom: -10%;
     }
 
 .i1, .i2, .i3{
@@ -525,6 +519,8 @@ font-size: 1.2em;
  white-space: nowrap;
 	font-size: 1.3em;
 
+}
+	
 }
 
 
