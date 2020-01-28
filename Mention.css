@@ -1,0 +1,12 @@
+body{
+    width: 100%;
+    background-color: #569783;
+}
+
+h1, p{
+    color: #F7BF28;
+}
+
+h1{
+    text-align: center;
+}
