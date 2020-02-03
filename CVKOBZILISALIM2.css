@@ -420,6 +420,10 @@ padding-left: 5%;
  border-bottom: hidden;
  margin-left: 28%;
 }
+	
+.texte, .texte2{
+		font-size: 1.2em;
+	}
 
  .reco{
  display: flex;
