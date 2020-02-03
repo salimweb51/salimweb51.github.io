@@ -86,7 +86,7 @@ h1{
 }
 
 .p1  {
-									padding-bottom: 4%;
+	 padding-bottom: 4%;
          font-size: 1em;
 }
 
@@ -415,6 +415,10 @@ padding-left: 5%;
   text-align: center; 
  }
   
+.texte, .texte2{
+		font-size: 1.2em;
+	}	
+	
 #s1, #s2, #s3, #s4{
  
  border-bottom: hidden;
