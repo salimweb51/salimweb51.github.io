@@ -5,15 +5,13 @@ html {
 }
 
 body {
-	background-color: #fff;
-	color: #000;
 	font-family: "Century Gothic", helvetica, arial, sans-serif;
 	font-size: 1.4em; 
 	line-height: 1.5; 
- width: 100%;
- margin: 0px;
- padding: 0px;
- overflow-x: hidden;
+ 	width: 100%;
+ 	margin: 0px;
+ 	padding: 0px;
+ 	overflow-x: hidden;
 }
 
 #contener{
