@@ -440,14 +440,14 @@ grid-tempate-columns: 50% 50%;
 grid-column-start: 1;
 grid-column-end: 1;
 margin-left: 40%;
-font-size: 1.2em;
+font-size: 1.3em;
 }
 
 .reco3{
 grid-column-start: 2;
 grid-column-end: 2;
 margin-left: 10%;
-font-size: 1.2em;
+font-size: 1.3em;
 }
 
 }
