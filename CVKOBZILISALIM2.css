@@ -304,14 +304,14 @@ grid-tempate-columns: 50% 50%;
 .reco2{
 grid-column-start: 1;
 grid-column-end: 1;
-margin-left: 10%;
+margin-left: 8%;
 font-size: 1.2em;
 }
 
 .reco3{
 grid-column-start: 2;
 grid-column-end: 2;
-margin-left: 5%;
+margin-left: 3%;
 font-size: 1.2em;
 }
 
