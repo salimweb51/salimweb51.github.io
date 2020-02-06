@@ -305,14 +305,14 @@ grid-tempate-columns: 50% 50%;
 grid-column-start: 1;
 grid-column-end: 1;
 margin-left: 6%;
-font-size: 1.2em;
+font-size: 1em;
 }
 
 .reco3{
 grid-column-start: 2;
 grid-column-end: 2;
 margin-left: 1%;
-font-size: 1.2em;
+font-size: 1em;
 }
 
 
@@ -440,14 +440,14 @@ grid-tempate-columns: 50% 50%;
 grid-column-start: 1;
 grid-column-end: 1;
 margin-left: 30%;
-font-size: 1.3em;
+font-size: 1.1em;
 }
 
 .reco3{
 grid-column-start: 2;
 grid-column-end: 2;
 margin-left: 5%;
-font-size: 1.3em;
+font-size: 1.1em;
 }
 
 }
