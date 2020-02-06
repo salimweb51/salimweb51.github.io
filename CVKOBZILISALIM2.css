@@ -451,3 +451,14 @@ font-size: 1.1em;
 }
 
 }
+
+@media screen and (min-width:767px) and (max-width:1024px) {
+
+.reco2 {
+			grid-column-start: 1;
+			grid-column-end: 1;
+			margin-left: 40%;
+			font-size: 1em;
+}
+
+}
