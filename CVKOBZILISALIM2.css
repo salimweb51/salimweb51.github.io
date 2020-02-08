@@ -1,0 +1,610 @@
+/* affichage pour les ordinateurs et grands écrans*/
+@media screen and (min-width:1025px) {
+	
+html {
+	/* les margin et padding à 0 sur le html et le body servent à effectué un reset css pour éviter les marges différentes selon les navigateurs*/
+	font-size: 62.5%;
+ margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	font-family: "Century Gothic", helvetica, arial, sans-serif;
+	font-size: 1.4em;
+	line-height: 1.5;
+	height: 100%;
+ width: 100%;
+ margin: 0px;
+ padding: 0px;
+ overflow-x: hidden;
+}
+
+#contener{
+          margin: 0px;
+          padding: 0px;
+										height: 100%;
+          display: grid;
+          grid-template-columns: 20% 80%;
+										grid-template-rows: 5% 5% 80%;      
+}
+
+#menu{ 
+       text-align: center;
+}
+
+/*mise en forme des puces modifiée*/
+.puce{
+	color: #ffddd0;
+	font-size: 1.3em;
+	margin-left: 100%;
+	padding-top: 15px;
+
+}
+
+.puce2{
+	color: #ffddd0;
+	font-size: 3.2em;
+	margin-left: 100%;
+	margin-bottom: 15px;
+}
+
+/* div left sert à faciliter l'utilisation du display grid*/
+#left{
+							grid-column-start: 1;
+							grid-column-end:  1;
+							grid-row-start: 1;
+							grid-row-end: 1;
+							background-color: #ffeee6;
+							padding-top: 10%;
+}
+
+#art3 {
+								margin-top: 7%;
+        position: relative;
+        grid-column-start: 2;
+								grid-column-end: 2;
+								grid-row-start: 3;
+								grid-row-end: 3;
+}
+
+header{
+				grid-column-start: 2;
+				grid-column-end: 2;
+				grid-row-start: 2;
+				grid-row-end: 2;
+}
+
+h1{
+    color: #660066;
+    font-size: 3em;
+				line-height: 0;
+				margin-left: 4%;
+				grid-column-start: 2;
+				grid-column-end: 2;
+				grid-row-start: 1;
+				grid-row-end: 1;
+    }
+				
+				.spanh1{
+					color: black;
+				}
+ 
+ h2{
+    color: #cc00cc;
+    font-size: 2.6em;
+				line-height: 0;
+				margin-left: 4%;
+				grid-column-start: 2;
+				grid-column-end: 2;
+				grid-row-start: 2;
+				grid-row-end: 2;
+				margin-top: 5%;
+}
+
+.spanh2{
+	text-decoration: underline;
+}
+
+/*ajour des cercles autour des icones*/
+.i1, .i2, .i3 {
+    margin-left: 10px;
+    margin-right: 20px;
+    display: inline;
+    font-size: 2.4em;
+				padding: 2% 2% 2% 2% ;
+				border: 4px solid black;
+				border-radius: 100%;
+}
+
+#s1, #s2, #s3, #s4 {
+              margin-left: 50px;
+              border-bottom: 2px solid #006622;
+              padding-bottom: 15px;
+              font-size: 1.4em;
+              color: #751aff;
+              position: relative;
+              border-color: #5200cc;
+}
+
+#coordonnées{
+    font-size: 1.2em;      
+}
+
+.p1  {
+				padding-bottom: 4%;
+				font-size: 1em;
+}
+
+/*modification de la couleur et de la largeur des liens au survol*/
+a:hover{
+         font-weight: bolder;
+         color: red;
+}
+
+.span1{
+	font-size: 0.9em;
+}
+
+.span2{
+	font-size: 0.9em;
+	margin-left: 3%;
+}
+
+
+.texte{
+        font-size: 1.2em;
+							
+}
+
+.texte2{
+	font-size: 1.2em;
+	padding-left: 30%;
+}
+
+.P2{
+	padding-left: 15%;
+	font-size: 1.2em;
+}
+
+.P3{
+	padding-left: 15%;
+	font-size: 1.2em;
+	padding-top: 3px;
+	
+}
+
+#description{
+              text-align: justify;
+              font-size: 1.2em;
+              padding-left: 4%;
+              padding-right: 4%;
+}
+
+.EX{
+	display: grid;
+	grid-template-columns:15% 15% 70%;
+}
+
+img { 
+     border: 1px solid black;
+     border-radius: 100%;
+     background-color: #669999;
+}
+
+.cadre{
+        border: 2px solid black;
+        background-color: #ff9999;
+        color: #2929a3;
+        text-align: center;								
+}
+
+#ico{
+	padding-bottom: 50%;
+}
+
+.reco{
+ display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.reco2{
+	grid-column-start: 1;
+	grid-column-end: 1;
+	margin-left: 9%;
+	font-size: 1.2em;
+}
+
+.reco3{
+		grid-column-start: 2;
+	grid-column-end: 2;
+	font-size: 1.2em;
+}
+
+}
+
+
+/*affichage pour pour les smartphones et tablettes*/
+/* rétablissement des couleurs d'origine sur tous les supports pour respecter la charte graphique d'origine*/
+@media screen and (max-width:1024px) {
+	
+ body {
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+      width: 100%;
+ }
+ 
+#contener {
+	/*modification du display grid pour modifier la mise en page sur tablette et smartphone avec la section menu en premier*/
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    width: 100%;
+				grid-template-rows: 36% 2% 2% 60% ;
+}
+ 
+h1{
+    color: #660066;
+    font-size: 1.9em;
+    font-weight: bold;
+				text-align: center;
+				grid-row-start: 2;
+				grid-row-end: 2;
+}
+
+/*modification des margin des puces pour qu'elles soient adaptées à l'affichage sur smartphone et tablette*/
+.puce{
+	color: #ffddd0;
+	font-size: 1.1em;
+	margin-top: 17px;
+	margin-left: 33%;
+}
+
+.puce2{
+	color: #ffddd0;
+	font-size: 2.2em;
+	margin-top: 7px;
+	margin-left: 33%;
+}
+
+.EX{
+	display: grid;
+	grid-template-rows: 0% 25% 70%;
+}
+
+h2{
+    color: #cc00cc;
+    font-weight: bold;
+    font-size: 1.8em;
+				line-height: 0;
+				text-align: center;
+				grid-row-start: 3;
+				grid-row-end: 3;
+}
+
+.spanh2{
+	text-decoration: underline;
+}
+
+#left{
+			 width: 100%;
+				background-color: #ffeee6;
+			
+}
+
+#menu {
+    text-align: center;
+				width: 100%;
+				grid-row-start: 1;
+				grid-row-end: 1;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: #669999;
+    position: relative;
+			 margin-top: 5%;
+    }
+       
+.cadre {
+    border: 2px solid black;
+    background-color: #ff9999;
+    color: #000099;
+    text-align: center;
+    position: relative;
+}
+
+#coordonnées{
+    position: relative;
+}
+
+.p1  {
+ font-size: 1.2em;
+}
+
+
+#description {
+    text-align: justify;
+    font-size: 1.2em;
+				padding-right: 2%;
+				padding-left: 2%;
+    }
+
+.i1, .i2, .i3{
+	/* ajout des cercles sur les icones pour l'affichage smartphone et tablette*/
+    display: inline;
+    font-size: 1.6em;
+				padding: 1% 1% 1% 1%;
+				border: 4px solid black;
+				border-radius: 100%;
+}
+
+#ico{
+	padding-bottom: 4%;
+}
+
+#art3 {
+    position: relative;
+				grid-row-start: 4;
+				grid-row-end: 4;
+}
+
+.sous-titres {
+	/*rétablissement du sous-lignement des sous-titres*/
+    color: #4d004d;
+    font-size: 1.4em;
+    border-bottom: solid;
+				text-align: center;
+}
+
+.P2, .P3, .span1, .span2 {
+	text-align: center;
+	font-size: 1.1em;
+}
+
+
+
+#s1, #s2, #s3, #s4 {
+ border-bottom: solid;
+	text-align: center;
+}
+
+.texte {
+    font-size: 1.2em;
+    position: relative;
+				text-align: center;
+    }
+				
+.texte2 {
+				font-size: 1.2em;
+    position: relative;
+				text-align: center;
+				}
+				
+				.reco {
+					display: grid;
+					grid-template-columns: 50% 50%;
+}
+
+/*reduction de font-size poour reco2 et reco3 pour affichage responsive*/
+.reco2 {
+			grid-column-start: 1;
+			grid-column-end: 1;
+			margin-left: 12%;
+			font-size: 1em;
+}
+
+.reco3 {
+			grid-column-start: 2;
+			grid-column-end: 2;
+			margin-left: 3%;
+			font-size: 1em;
+}
+
+}
+
+
+/*modification de l'affichage de certains éléments en mode paysage*/
+/*rétablissement des couleurs de base*/
+@media (orientation:landscape) and (max-width:1025px) {
+ 
+ body {
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+      width: 100%;
+ }
+ 
+#contener {
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    width: 100%;
+				grid-template-rows: 36% 2% 2% 38% ;
+}
+ 
+h1{
+    color: #660066;
+    font-size: 1.9em;
+    font-weight: bold;
+				text-align: center;
+				grid-row-start: 2;
+				grid-row-end: 2;
+}
+
+h2{
+    color: #cc00cc;
+    font-weight: bold;
+    font-size: 1.8em;
+				line-height: 0;
+				text-align: center;
+				grid-row-start: 3;
+				grid-row-end: 3;
+}
+
+
+/*ajustement des margin des puces en mode paysage*/
+.puce{
+	color: #ffddd0;
+	font-size: 1.1em;
+	margin-top: 17px;
+	margin-left: 43%;
+}
+
+.puce2{
+	color: #ffddd0;
+	font-size: 2.2em;
+	margin-top: 7px;
+	margin-left: 41%;
+}
+
+.spanh2{
+	text-decoration: underline;
+}
+
+#left{
+			 width: 100%;
+				background-color: #ffeee6;
+}
+
+#menu {
+    text-align: center;
+				width:100%;
+				grid-row-start: 1;
+				grid-row-end: 1;
+}
+
+img {
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: #669999;
+    position: relative;
+			 margin-top: 5%;
+    }
+       
+.cadre {
+    border: 2px solid black;
+    background-color: #ff9999;
+    color:#000099 ;
+    text-align: center;
+    position: relative;
+}
+
+#coordonnées{
+    position: relative;
+}
+
+.p1  {
+      font-size: 1.2em;
+}
+
+
+#description {
+    text-align: justify;
+    font-size: 1.2em;
+				padding-right: 2%;
+				padding-left: 2%;
+    }
+
+.i1, .i2, .i3{
+    display: inline;
+    font-size: 2.5em;
+				padding: 1% 1% 1% 1% ;
+				border: 4px solid black;
+				border-radius: 100%;
+}
+
+#art3 {
+    position: relative;
+				grid-row-start: 4;
+				grid-row-end: 4;
+}
+
+/*rétablissement du sous-lignement des sous-titres*/
+.sous-titres {
+    color:#4d004d;
+    font-size: 1.4em;
+    border-bottom: solid;
+				text-align: center;
+}
+
+.P2, .P3, .span1, .span2{
+	text-align: center;
+	font-size: 1.1em;
+}
+
+#s1, #s2, #s3, #s4{
+ 
+ border-bottom: solid;
+	text-align: center;
+}
+
+.texte {
+    font-size: 1.2em;
+    position: relative;
+				text-align: center;
+    }
+				
+				.texte2{
+						text-align: center;
+						font-size: 1.2em;
+						position: relative;
+				}
+
+.reco{
+display: grid;
+grid-template-columns: 50% 50%;
+}
+
+.reco2{
+grid-column-start: 1;
+grid-column-end: 1;
+margin-left: 45%;
+font-size: 1.1em;
+}
+
+.reco3{
+grid-column-start: 2;
+grid-column-end: 2;
+margin-left: 10%;
+font-size: 1.1em;
+}
+
+}
+
+/*ajustemnent de quelques éléemnts pour les écrans comprit entre 600 et 1024px*/
+@media screen and (min-width:600px) and (max-width:1024px) {
+
+.puce{
+	color: #ffddd0;
+	font-size: 1.1em;
+	margin-top: 17px;
+	margin-left: 40%;
+}
+
+.puce2{
+	color: #ffddd0;
+	font-size: 2.2em;
+	margin-top: 7px;
+	margin-left: 41%;
+}
+
+
+
+.reco2 {
+			grid-column-start: 1;
+			grid-column-end: 1;
+			margin-left: 40%;
+			font-size: 1.1em;
+}
+
+.reco3{
+grid-column-start: 2;
+grid-column-end: 2;
+margin-left: 10%;
+font-size: 1.1em;
+}
+
+}
