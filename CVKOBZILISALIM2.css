@@ -504,4 +504,11 @@ font-size: 1.1em;
 			font-size: 1.1em;
 }
 
+.reco3{
+grid-column-start: 2;
+grid-column-end: 2;
+margin-left: 10%;
+font-size: 1.1em;
+}
+
 }
