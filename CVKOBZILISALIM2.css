@@ -108,13 +108,14 @@ h1{
 
 /*ajour des cercles autour des icones*/
 .i1, .i2, .i3 {
-    margin-left: 10px;
-    margin-right: 20px;
+    margin-left: 8px;
+    margin-right: 15px;
     display: inline;
-    font-size: 2.4em;
-				padding: 2% 2% 2% 2% ;
-				border: 4px solid black;
-				border-radius: 100%;
+    font-size: 1.8em;
+    padding: 2% 2% 2% 2% ;
+    border: 4px solid black;
+    border-radius: 100%;
+}
 }
 
 #s1, #s2, #s3, #s4 {
