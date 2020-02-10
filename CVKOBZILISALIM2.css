@@ -112,10 +112,9 @@ h1{
     margin-right: 15px;
     display: inline;
     font-size: 1.8em;
-    padding: 2% 2% 2% 2% ;
-    border: 4px solid black;
-    border-radius: 100%;
-}
+				padding: 2% 2% 2% 2% ;
+				border: 4px solid black;
+				border-radius: 100%;
 }
 
 #s1, #s2, #s3, #s4 {
@@ -458,7 +457,7 @@ h2{
 	color: #ffddd0;
 	font-size: 2.2em;
 	margin-top: 7px;
-	margin-left: 39%;
+	margin-left: 38%;
 }
 
 .spanh2{
@@ -511,7 +510,7 @@ img {
 
 .i1, .i2, .i3{
     display: inline;
-    font-size: 2.5em;
+    font-size: 2.3em;
 				padding: 1% 1% 1% 1% ;
 				border: 4px solid black;
 				border-radius: 100%;
